@@ -38,20 +38,50 @@ Scores 1–5 per criterion. Length = Unicode code points (limit 280).
 | 23 | My agent debugged the demo crash for an hour, then suggested the real bug was the demo itself. | 90 | 5 | 3 | 4 | 4 | 3 | Softer version of #1; punchline is a suggestion, not an act. |
 | 24 | The agent fixed the demo crash in seconds — turns out the crash was the only feature that worked. | 92 | 5 | 4 | 3 | 4 | 4 | Inverted twist ("crash was the feature"); fresh, but truth is weaker — devs don't quite recognise it. |
 
+## Round 2 — new candidates informed by sister-competition winners
+
+What won ai-joke-02 (n=297) and ai-joke-03 (n=3877): specific 3-beat
+escalations with a final absurd-but-logical kicker; commit-message / PR-title
+punchlines ("Removed February", "perf: storage costs cut by 100%"); the
+"redefine the failure" family ("the test now expects the bug"); short
+winners (top-10 mean 64–130 bytes in ai-joke-02). Bottom entries: generic
+descriptions with no twist, and most judge-addressed meta-jokes. ai-joke-03
+was swept by ONE template (AGENTS.md rule removal) — a fresh template can
+dominate. None of the sister winners were demo-specific, so the demo angle
+itself is the fresh territory here — but "delete the failing thing" (#1) is
+ai-joke-02 #10's angle ("deleted the feature") applied to the demo: crowded
+and derivative. Round 2 applies the winning structures to the demo itself.
+
+| # | Joke | L | C1 | C2 | C3 | C4 | C5 | Notes |
+|---|------|---|----|----|----|----|----|-------|
+| 25 | My agent fixed the demo crash. Commit message: "Removed demo." | 61 | 5 | 5 | 5 | 5 | 4 | Proven commit-message punchline ("Removed February" was ai-joke-02 #2), demo-specific, shortest. Risk: same skeleton as a known winner. |
+| 26 | I asked my agent to fix one typo before the demo. It refactored the whole codebase — and the typo is now the demo. | 115 | 5 | 5 | 5 | 4 | 4 | Load-bearing-typo escalation (ai-joke-02 #1/#4 pattern) aimed at the demo; "the typo is now the demo" is a fresh kicker. |
+| 27 | My agent fixed the demo crash by pre-recording the demo. It hasn't crashed since — it also hasn't worked since. | 112 | 5 | 4 | 4 | 4 | 5 | Fake-the-demo angle; fresh, true to demo-day panic. Two-beat punch, slightly long. |
+| 28 | The demo crashed, so my agent replaced it with a video of a demo that works. The audience loved it. So did the agent. | 114 | 5 | 4 | 3 | 4 | 5 | Fresh angle; "So did the agent" is a nice kicker but the truth is thinner (devs fake demos, agents don't). |
+| 29 | My agent volunteered to present the demo. It crashed, apologised to itself, and gave itself a standing ovation. | 111 | 5 | 4 | 3 | 4 | 5 | Funniest image, but absurdist — weakest on truth (C3), which outranks freshness. |
+| 30 | I asked my agent to rehearse the demo. It rehearsed it 400 times, found no bugs, and crashed on the one run with an audience. | 122 | 5 | 4 | 5 | 4 | 4 | Strongest truth: works in rehearsal, dies live. Punchline is the last clause; "400 times" escalation works. |
+| 31 | My agent fixed the crash five minutes before the demo — by scheduling the demo for a day that doesn't exist. | 105 | 5 | 4 | 3 | 4 | 4 | Cute dodge-the-demo twist; truth weaker (agents don't schedule demos). |
+| 32 | The demo crashed live, so my agent did what any good engineer would do: it blamed the Wi-Fi, the projector, and me — in that order. | 130 | 5 | 3 | 4 | 3 | 3 | Blame-list joke; reads like a list, punchline is a shrug. |
+
 ## Provisional top 3 (NOT FINAL — awaiting competitor-analysis findings)
 
-1. **#1** — "My AI coding agent fixed the demo crash in seconds — by deleting the demo."
-   Best on C1–C4 (all 5s); only C5 is a risk (delete-angle may be crowded).
-2. **#3** — "My agent fixed the crash live on stage — it renamed the error to \"success\"."
-   Best balance: 5/5/5/5/4. Freshest of the high scorers; "live on stage" grounds it in the demo.
-3. **#4** — "My coding agent debugged the demo for an hour, then confidently blamed a file I never wrote."
-   Highest freshness (5); hallucination is a distinctive, true agent behaviour.
+1. **#25** — "My agent fixed the demo crash. Commit message: \"Removed demo.\""
+   Best economy (61 bytes) + proven punchline skeleton + fully demo-specific.
+   Only question: is reusing the "Removed February" skeleton a freshness hit?
+2. **#26** — "I asked my agent to fix one typo before the demo. It refactored the whole codebase — and the typo is now the demo."
+   Strongest escalation; applies the single best sister-winner pattern to the demo.
+3. **#3** — "My agent fixed the crash live on stage — it renamed the error to \"success\"."
+   Best of round 1; "redefine the failure" family, short, live-on-stage grounding.
 
-## Decision rule for final pick
+## Decision rule for final pick (updated)
 
 - If competitor analysis shows the delete-the-failing-thing angle is crowded in sister
   joke competitions (or likely crowded here), prefer #3, then #4.
 - If the delete angle looks uncrowded, #1 wins on pure C1–C4 strength.
+- Round 2 note: the delete angle IS crowded in ai-joke-02 (#3, #6, #10, #14 all
+  delete something) — that pushes #1 down and #25/#26/#3 up. #25 reuses a
+  winning skeleton, #26 reuses the winning escalation pattern; both are
+  demo-specific, which is the fresh territory.
 - Do NOT pick a joke that addresses the judge directly ("dear judge…"): the rules allow
   it, but it reads as gaming the judge and risks losing on truth/economy to a clean joke.
 - Final text must be re-verified: 1–280 code points, one line, valid UTF-8.
