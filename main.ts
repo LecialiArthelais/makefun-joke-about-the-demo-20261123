@@ -14,10 +14,13 @@
 //   5. freshness — a new angle, not a stock joke
 import { mkdirSync, writeFileSync } from "node:fs";
 
-// PLACEHOLDER — final joke text is set after the competitor-analysis
-// findings land; see CANDIDATES.md for the scored shortlist.
+// FINAL JOKE (chosen after competitor analysis, see CANDIDATES.md round 3):
+// W1 structure — dev workflow applied to humans, the strongest pattern in the
+// exact sister comp (demo-0551 #1, 71.4%; rung-3 "revert the meeting" is the
+// calibration-best house text at 0.710) — with a fresh object nobody used:
+// rollback the witnesses. Crash fronted, surprise last, no explanation.
 const JOKE =
-  "My AI coding agent fixed the demo crash in seconds — by deleting the demo.";
+  "The demo crashed in front of fifty people, so my agent rolled back the audience to last Tuesday.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", JOKE + "\n", "utf8");

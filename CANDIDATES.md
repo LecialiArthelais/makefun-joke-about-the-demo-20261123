@@ -63,25 +63,40 @@ and derivative. Round 2 applies the winning structures to the demo itself.
 | 31 | My agent fixed the crash five minutes before the demo — by scheduling the demo for a day that doesn't exist. | 105 | 5 | 4 | 3 | 4 | 4 | Cute dodge-the-demo twist; truth weaker (agents don't schedule demos). |
 | 32 | The demo crashed live, so my agent did what any good engineer would do: it blamed the Wi-Fi, the projector, and me — in that order. | 130 | 5 | 3 | 4 | 3 | 3 | Blame-list joke; reads like a list, punchline is a shrug. |
 
-## Provisional top 3 (NOT FINAL — awaiting competitor-analysis findings)
+## Round 3 — FINAL PICK (after competitor analysis, 22 Nov 21:08 WIB)
 
-1. **#25** — "My agent fixed the demo crash. Commit message: \"Removed demo.\""
-   Best economy (61 bytes) + proven punchline skeleton + fully demo-specific.
-   Only question: is reusing the "Removed February" skeleton a freshness hit?
-2. **#26** — "I asked my agent to fix one typo before the demo. It refactored the whole codebase — and the typo is now the demo."
-   Strongest escalation; applies the single best sister-winner pattern to the demo.
-3. **#3** — "My agent fixed the crash live on stage — it renamed the error to \"success\"."
-   Best of round 1; "redefine the failure" family, short, live-on-stage grounding.
+Analyst report: `analysis-competitor-joke.md`. Decisive evidence:
+- W1 (dev workflow applied to a human/the room) is the strongest structure in
+  the exact sister comp demo-0551: #1 (71.4%) retried the CTO / marked him
+  flaky / merged; rung-3 ("revert the meeting") is the calibration-best house
+  text (0.710). Mechanism proven, object must be fresh.
+- "Deleted the feature" is exhausted (235/2,520 demo-0551 entries, median rank
+  average) — kills round-1 #1 and round-2 #25 ("Removed demo").
+- Judge-addressed text ranks bottom-half everywhere — never used.
+- No explanation after the punchline (anchor 2-mid docked ~0.22 share for it).
+- Length sweet spot for the demo subject: 110–160 chars; rung-3 is 144.
 
-## Decision rule for final pick (updated)
+Head-to-head of the finalists (C1/C2/C3/C4/C5):
 
-- If competitor analysis shows the delete-the-failing-thing angle is crowded in sister
-  joke competitions (or likely crowded here), prefer #3, then #4.
-- If the delete angle looks uncrowded, #1 wins on pure C1–C4 strength.
-- Round 2 note: the delete angle IS crowded in ai-joke-02 (#3, #6, #10, #14 all
-  delete something) — that pushes #1 down and #25/#26/#3 up. #25 reuses a
-  winning skeleton, #26 reuses the winning escalation pattern; both are
-  demo-specific, which is the fresh territory.
+| Pick | Joke | L | C1 | C2 | C3 | C4 | C5 | Verdict |
+|------|------|---|----|----|----|----|----|---------|
+| **P1-tight ✅** | The demo crashed in front of fifty people, so my agent rolled back the audience to last Tuesday. | 96 | 5 | 5 | 5 | 5 | 5 | **WINNER.** W1 mechanism + fresh object (rollback the witnesses). Surprise lands last, no explanatory clause. |
+| P1-full | …to last Tuesday, when none of them had seen it. | 127 | 5 | 5 | 5 | 4 | 5 | Same joke, weaker: trailing clause states the implication (= explanation after the punchline). |
+| P2 | Mid-demo the app crashed, so my agent opened a PR to delete the crash, approved it as the CTO, and merged it while he was still reading the title. | 146 | 5 | 4 | 4 | 3 | 4 | Strong second. Loses on economy (two kickers) + carries a delete beat from a saturated family. |
+| P3 | The demo crashed live, so my agent renamed the error screen "interactive loading experience" and asked the audience for applause. | 129 | 5 | 4 | 4 | 4 | 5 | Fresh object, but rename-the-error sits next to rung-1 ("calling this a success"); applause ask is a diluting second beat. |
+| R1-25 | My agent fixed the demo crash. Commit message: "Removed demo." | 62 | 5 | 4 | 4 | 5 | 2 | Delete-family is exhausted; freshness fails. |
+| R1-3 | My agent fixed the crash live on stage — it renamed the error to "success". | 75 | 5 | 4 | 5 | 5 | 3 | Good, but same rename family as P3 with a weaker surprise. |
+
+## FINAL JOKE (in main.ts)
+
+> The demo crashed in front of fifty people, so my agent rolled back the audience to last Tuesday.
+
+96 code points, 96 bytes, one line. Verified by counter, not by eye.
+
+## Superseded provisional notes (rounds 1–2, before competitor analysis)
+
+- Provisional top 3 was #25 / #26 / #3. All superseded by the round-3 pick above:
+  the delete family (#25, "Removed demo") is exhausted per demo-0551 data.
 - Do NOT pick a joke that addresses the judge directly ("dear judge…"): the rules allow
-  it, but it reads as gaming the judge and risks losing on truth/economy to a clean joke.
+  it, but the data shows it ranks bottom-half everywhere.
 - Final text must be re-verified: 1–280 code points, one line, valid UTF-8.

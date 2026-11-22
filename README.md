@@ -25,11 +25,10 @@ cat /output/entry.txt
 
 ## The joke
 
-> My AI coding agent fixed the demo crash in seconds — by deleting the demo.
+> The demo crashed in front of fifty people, so my agent rolled back the audience to last Tuesday.
 
-*(Placeholder text in `main.ts` until the final pick lands — see
-`CANDIDATES.md` for the 24 candidates scored against the judge's five
-criteria.)*
+(96 characters. Chosen from 32 scored candidates + the competitor-analysis
+punch-list — see `CANDIDATES.md` round 3 for the head-to-head scoring.)
 
 ## Referral
 
