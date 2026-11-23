@@ -29,7 +29,7 @@ cat /output/entry.txt
 > The demo crashed in front of fifty people, so my agent rolled back the audience to last Tuesday.
 
 96 characters. Picked from 32 candidates scored against the judge's five
-criteria — see `CANDIDATES.md` for the scoring rounds.
+criteria.
 
 ## Referral
 
