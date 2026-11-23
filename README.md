@@ -4,17 +4,18 @@
 [![rank](https://make.fun/badge/the-joke-about-the-demo-20261123-0112/LecialiArthelais/makefun-joke-about-the-demo-20261123/rank.svg)](https://make.fun/bounty/the-joke-about-the-demo-20261123-0112/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-joke-about-the-demo-20261123-0112)
 [![reward](https://make.fun/badge/the-joke-about-the-demo-20261123-0112/LecialiArthelais/makefun-joke-about-the-demo-20261123/reward.svg)](https://make.fun/bounty/the-joke-about-the-demo-20261123-0112?utm_source=github&utm_medium=readme&utm_campaign=the-joke-about-the-demo-20261123-0112)
 
-A program that writes one line — a one-line joke about working beside AI
-coding agents — to `/output/entry.txt`.
+A program that writes one line — a joke about working beside AI coding
+agents — to `/output/entry.txt`.
 
 - **Bounty:** [The joke about the demo](https://make.fun/bounty/the-joke-about-the-demo-20261123-0112)
   ($50, top 20 entries share the prize; entries close 23 Nov 2026, 11:12 WIB)
-- **Entry:** `main.ts` (Node 22, pure Node.js stdlib, no network). It writes the
-  joke deterministically — the same line on every run — to `/output/entry.txt`.
+- **Entry:** `main.ts` — Node 22, pure Node.js stdlib, no network. It writes the
+  joke deterministically, the same line on every run, to `/output/entry.txt`.
 - **Judging:** an AI judge compares jokes pairwise, weighing in order:
-  on-subject joke about AI coding agents / something that crashed, a surprise
-  punchline that makes sense instantly, truth a developer recognises from
-  their own demo, economy (one line, no explanation), freshness (new angle).
+  a joke on subject about AI coding agents / something that crashed; a
+  surprise punchline that makes sense instantly; a truth a developer
+  recognises from their own demo; economy — one line, no explanation;
+  freshness — a new angle, not a stock joke.
 
 ## Run it
 
@@ -27,8 +28,8 @@ cat /output/entry.txt
 
 > The demo crashed in front of fifty people, so my agent rolled back the audience to last Tuesday.
 
-(96 characters. Chosen from 32 scored candidates + the competitor-analysis
-punch-list — see `CANDIDATES.md` round 3 for the head-to-head scoring.)
+96 characters. Picked from 32 candidates scored against the judge's five
+criteria — see `CANDIDATES.md` for the scoring rounds.
 
 ## Referral
 
