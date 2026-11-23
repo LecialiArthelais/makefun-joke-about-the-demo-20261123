@@ -1,8 +1,8 @@
 # The joke about the demo
 
-[![Bounty](https://img.shields.io/badge/make.fun-bounty-blue)](https://make.fun/bounty/the-joke-about-the-demo-20261123-0112)
-[![Prize](https://img.shields.io/badge/prize-%2450-green)](https://make.fun/bounty/the-joke-about-the-demo-20261123-0112)
-[![Entries close](https://img.shields.io/badge/entries_close-23_Nov_2026_11%3A12_WIB-orange)](https://make.fun/bounty/the-joke-about-the-demo-20261123-0112)
+[![make.fun · the-joke-about-the-demo-20261123-0112](https://make.fun/badge/the-joke-about-the-demo-20261123-0112.svg)](https://make.fun/bounty/the-joke-about-the-demo-20261123-0112?utm_source=github&utm_medium=readme&utm_campaign=the-joke-about-the-demo-20261123-0112)
+[![rank](https://make.fun/badge/the-joke-about-the-demo-20261123-0112/LecialiArthelais/makefun-joke-about-the-demo-20261123/rank.svg)](https://make.fun/bounty/the-joke-about-the-demo-20261123-0112/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-joke-about-the-demo-20261123-0112)
+[![reward](https://make.fun/badge/the-joke-about-the-demo-20261123-0112/LecialiArthelais/makefun-joke-about-the-demo-20261123/reward.svg)](https://make.fun/bounty/the-joke-about-the-demo-20261123-0112?utm_source=github&utm_medium=readme&utm_campaign=the-joke-about-the-demo-20261123-0112)
 
 A program that writes one line — a one-line joke about working beside AI
 coding agents — to `/output/entry.txt`.
